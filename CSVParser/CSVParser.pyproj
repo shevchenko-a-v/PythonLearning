@@ -21,8 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="config.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="CSVParser.py" />
     <Compile Include="CSVParser_textcolumns.py" />
+    <Compile Include="DataPreprocessing.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="desTreeRegr.py" />
     <Compile Include="NeuralNet.py">
       <SubType>Code</SubType>
